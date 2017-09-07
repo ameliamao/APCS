@@ -23,6 +23,7 @@ public class Flag extends JApplet {
 	
 	double height, width; //height and width of window
 
+
 	/**
 	 * draws scalable flag
 	 * @param g: graphics object
@@ -72,10 +73,11 @@ public class Flag extends JApplet {
 	 * @param g: graphics object
 	 */
 	public void drawUnion(Graphics g) {
-		final double UNION_OFFSET = 1.32; //offset for stars to be in the correct place on union
+		final double UNION_OFFSET = 1.31; //offset for stars to be in the correct place on union
 		g.setColor(NAVY_BLUE);
 		g.fillRect(0, 0, (int) (D * height), (int) (C * height));
 		Stars star = new Stars(Color.WHITE);
 		star.draw(g, (int) (C * height * UNION_OFFSET), (int) (D * height * UNION_OFFSET));
 	}
+	
 }
