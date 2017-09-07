@@ -79,5 +79,4 @@ public class Flag extends JApplet {
 		Stars star = new Stars(Color.WHITE);
 		star.draw(g, (int) (C * height * UNION_OFFSET), (int) (D * height * UNION_OFFSET));
 	}
-	
 }
