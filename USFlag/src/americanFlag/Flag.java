@@ -18,8 +18,8 @@ public class Flag extends JApplet {
 	public final static double L = 1.0 / 13.0;
 	
 	//flag colors
-	public final Color NAVY_BLUE = new Color(0, 0, 124);
-	public final Color DARK_RED = new Color(187, 19, 62);
+	public final Color NAVY_BLUE = new Color(0, 40, 104);
+	public final Color DARK_RED = new Color(191, 10, 48);
 	
 	double height, width; //height and width of window
 
