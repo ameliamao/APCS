@@ -1,0 +1,22 @@
+INTRODUCTION: 
+	This is the American Flag Project. It is an applet program that generates a flag which is scalable through the cursor. 
+
+SPECIFICATIONS:
+	This program fulfills all the required specifications. It is both scalable and accurate to the data provided in the specified website.
+	There are currently no errors in the code.
+	
+CODE OVERVIEW:
+	There are 3 different classes: Flag, Stars, and Stripes. The Stripes class creates one stripe given the x and y values, 
+	a color and the size which the stripe should be. The Stars class calculates and draws an array of 50 stars, that are sized 
+	by the blue rectangle(the union), which is communicated through the Flag Class. The Flag Class creates the union and the 13 
+	different stripes, generating the complete US flag in an JApplet window.
+	
+CHALLENGES:
+	The major challenge I encountered was calculating the points of a star, and drawing it. I just started trigonometry this year, 
+	so I was not able to derive a formula for the star. In the end, I just searched up how to make a star, and was able to find an
+	algorithm that I integrated into my code.
+	
+ACKNOWLEDGEMENTS: 
+	The code I used for my star can be found in this link: https://github.com/triyangle/Flag/blob/master/src/Flag.java
+	It is a github file containing code that I used directly for the star calculations.
+	I also use https://www.javatpoint.com/java-applet, for reference on how to create my applet.
