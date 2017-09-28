@@ -2,7 +2,7 @@ INTRODUCTION:
 	This is the LogicPuzzle Project. It is a program that creates, checks, and uses logic sentences. 
 
 SPECIFICATIONS:
-	I believe this program fulfills all the required specifications. However, as the instruction for some of the functions were quite dubious, I am not 100% sure. There are currently no noticeable errors in the code.s
+	I believe this program fulfills all the required specifications. However, as the instruction for some of the functions were quite dubious, I am not 100% sure. There are currently no noticeable errors in the code.
 	
 CODE OVERVIEW:
 	There are 8 different classes: PropositionConstant, LogicSentence, TruthAssignment, 		Conjunction, Disjunction, Negation, Biconditional and Conditional. The PropositionConstant class creates an object containing a simple string(currently only containing single characters). The LogicSentence class is constructed out of a single proposition constant and contains many helper methods for subclasses. The TruthAssignment class is composed of one hashMap of proposition constants and their corresponding booleans. The Conjunction, Disjunction, Negation, Biconditional and Conditional classes are all subclasses of LogicSentence that contain a method to calculate their boolean value according to their respective logical operator, i.e "and" for conjunction, "not" for negation, or "iff" for biconditional.
