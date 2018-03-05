@@ -1,0 +1,18 @@
+INTRODUCTION: 
+	This is the Setstuff project. It is one class which implements the 11 methods created in codingBat.
+
+SPECIFICATIONS:
+	This program fulfills the required specifications. It has tested correctly for all the situations in codingBat. There should
+	be no current errors
+	
+CODE OVERVIEW:
+	There is one class containing all the methods called SetStuff.java. Each function in the class is a separate problem in coding bat 
+	with the exception of the intersect method which uses a helper method called bubbleSort.
+	
+CHALLENGES:
+	The major challenge I encountered was the nearesUnvisitedNode() class. Originally I created a series of for loops and if statements,
+	making the code very long and inefficient. However, after thought to change it, I came up with a way to significantly shorten
+	the code to make it much faster.
+	
+ACKNOWLEDGEMENTS: 
+	Sophia collaborated with me to figure out a better way to implement the nearesUnvisitedNode method.
